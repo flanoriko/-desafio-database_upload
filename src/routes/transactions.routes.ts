@@ -5,9 +5,7 @@ import CreateTransactionService from '../services/CreateTransactionService';
 import DeleteTransactionService from '../services/DeleteTransactionService';
 import ImportTransactionsService from '../services/ImportTransactionsService';
 
-import Transaction from '../models/Transaction';
 import multer from 'multer';
-import configMulter from '../config/upload';
 import uploadConfig from '../config/upload'
 
 import { getCustomRepository } from 'typeorm';
